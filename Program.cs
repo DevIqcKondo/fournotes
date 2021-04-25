@@ -53,7 +53,7 @@ namespace fournotes
                 Console.WriteLine("Você ficou com média "+r+". Resultado: Reprovado");
                 Console.ResetColor();
 
-            }else if(r>=5||r<=6){
+            }else if(r>=5&&r<=6){
                 Console.ForegroundColor=ConsoleColor.Blue;
                 Console.WriteLine("Você ficou com média "+r+". Resultado: Em recuperação");
                 Console.ResetColor();
